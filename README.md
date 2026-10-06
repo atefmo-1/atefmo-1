@@ -24,7 +24,7 @@ A live web app I built solo that turns an international student's visa rules, ta
 
 `Next.js` · `TypeScript` · `React` · `Supabase Postgres` · `Claude API` · `Vercel` · `Vitest` · `Zod`
 
-Code: [atefmo-1/reloco](https://github.com/atefmo-1/reloco)
+The code is private because the app holds real student data. I'm happy to walk through it or share access: [email me](mailto:mohamedatefali18@gmail.com).
 
 ### 💼 Experience
 

@@ -1,9 +1,8 @@
 <h1 align="center">Hey, I'm Atef 👋</h1>
 
 <p align="center">
-  <a href="https://www.atefmohamed.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=I+turn+messy+workflows+into+tools+people+use.;Product+%2B+AI+enablement+%40+UNC+Chapel+Hill;Currently+building+reloco.app+%E2%80%94+solo%2C+shipped%2C+live." alt="Typing SVG" />
-  </a>
+  I build AI products end to end: talk to the users, decide what to build, write the code, ship it, measure it.<br/>
+  CS + Information Science at UNC Chapel Hill '27 · Morehead-Cain Scholar · grew up in Sharqia, Egypt 🇪🇬
 </p>
 
 <p align="center">
@@ -14,53 +13,32 @@
 
 ---
 
-### 🧭 About me
+### 🚀 Reloco: an F-1 co-pilot for international students · [reloco.app](https://reloco.app) · [case study](https://www.atefmohamed.com/projects/reloco)
 
-```ts
-const atef = {
-  based:     "Chapel Hill, NC 🇺🇸  (grew up in Sharqia, Egypt 🇪🇬 → Johannesburg, South Africa 🇿🇦)",
-  studying:  ["B.A. Computer Science", "B.S. Information Science"], // UNC Chapel Hill, '27
-  scholar:   "Morehead-Cain Scholar — full-ride, <1% of the class",
-  focus:     "Product Management, close to the data and the code",
-  building:  "reloco.app — an F-1 co-pilot for international students, solo-built, live",
-  status:    "🟢 graduating May 2027, open to full-time roles",
-};
-```
+A live web app I built solo that turns an international student's visa rules, taxes and paperwork into one ordered plan, with an AI assistant that knows their situation.
 
-### 🚀 Currently building
+- **Planning engine:** deterministic, resolves 49 typed tasks from date anchors and a dependency graph, streamed to the client as NDJSON. Guarded by 300+ Vitest tests.
+- **AI assistant:** a streaming tool-use agent on the Claude API with prompt caching. Rules stay in code; the model only reads and explains, and every citation is validated before a student sees it.
+- **Evals I wrote:** 85/85 Ask cases (including scams and prompt injection) at ~1¢ a question; document reading 196/196 fields with structured outputs; models chosen by eval, not by vibe.
+- **Security, because it holds passports:** AES-256-GCM field-level encryption, row-level security across 15 Postgres migrations, per-request CSP nonces, Sentry with personal data stripped, 2 security reviews.
 
-**[Reloco](https://reloco.app)** — a web app that walks F-1 students through every task the US asks of them (visas, taxes, banking, housing, OPT), personalized around their dates. Solo project: research, product, design, and full-stack engineering.
+`Next.js` · `TypeScript` · `React` · `Supabase Postgres` · `Claude API` · `Vercel` · `Vitest` · `Zod`
 
-`44 typed tasks` · `9 domains` · `103 tests` · `Next.js + Supabase + Claude API` · [case study →](https://www.atefmohamed.com/projects/reloco)
+Code: [atefmo-1/reloco](https://github.com/atefmo-1/reloco)
 
 ### 💼 Experience
 
-- 🩺 **Product Manager Intern, [Well](https://www.wellcompany.co)** — shipped a Salesforce↔Claude integration + a 27-skill library to a 50-person org; drove 88% weekly active use and 94% reported time savings
-- 📊 **Product & Analytics Intern, [Ethos](https://ethoslife.com)** — audited 30+ dashboards, shaped the roadmap through a 4-dimension competitive benchmark
-- 🌱 **Product Development Intern, MNIPL** — owned a home energy-audit app 0→1 on a 5-intern team; now live serving homeowners across Minnesota
-- 🏛️ **Research Assistant, UNC Center on Technology Policy** — designed 3 published policy briefs on AI + broadband policy
+- **Well:** Product Manager Intern. Built a production Salesforce ↔ Claude integration over MCP, plus a 27-skill library rolled out to 50 people (88% weekly active, 94% reported time savings).
+- **Ethos:** Product & Analytics Intern. Debugged the SQL behind 30+ analytics dashboards; designed an RBAC model with engineering.
+- **MNIPL:** Product Development Intern. Led tech and design on a home energy-audit web app, 0 to 1, now live across Minnesota.
 
-### 🛠️ Stack
+### 🛠️ Toolbox
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Claude%20%2F%20MCP-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-</p>
-
-### 📈 GitHub stats
-
-<p align="left">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=atefmo-1&show_icons=true&theme=dark&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=atefmo-1&theme=dark&hide_border=true" />
-</p>
+**Languages:** TypeScript, JavaScript, Python, SQL, Java, C/C++
+**Web & data:** React, Next.js, Node.js, Tailwind CSS, PostgreSQL, Supabase, Snowflake
+**AI:** Claude API (tool use, structured outputs, prompt caching), MCP, LLM evals, Claude Code
+**Shipping:** Vercel, Sentry, Vitest, Git
 
 ---
 
-<p align="center"><i>I grew up the new person in the room a lot. Turns out that's most of product work — knowing what to ask.</i></p>
+<p align="center"><i>I've been the new person in the room a lot. Turns out that's most of building: knowing what to ask.</i></p>

@@ -34,10 +34,10 @@ Code: [atefmo-1/reloco](https://github.com/atefmo-1/reloco)
 
 ### 🛠️ Toolbox
 
-**Languages:** TypeScript, JavaScript, Python, SQL, Java, C/C++
-**Web & data:** React, Next.js, Node.js, Tailwind CSS, PostgreSQL, Supabase, Snowflake
-**AI:** Claude API (tool use, structured outputs, prompt caching), MCP, LLM evals, Claude Code
-**Shipping:** Vercel, Sentry, Vitest, Git
+- **Languages:** TypeScript, JavaScript, Python, SQL, Java, C/C++
+- **Web & data:** React, Next.js, Node.js, Tailwind CSS, PostgreSQL, Supabase, Snowflake
+- **AI:** Claude API (tool use, structured outputs, prompt caching), MCP, LLM evals, Claude Code
+- **Shipping:** Vercel, Sentry, Vitest, Git
 
 ---
 
